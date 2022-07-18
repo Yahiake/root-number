@@ -9,7 +9,7 @@ while True:
     elif k%10 == 3:
         print("\nYour", k ,"\brd degree root number is : ", i, "\n")
     else :
-        print("\nYour", k ,"\bth degree root number is : " , i , "\n") #ordinal numbers are not perfect, works well until 20 after that it prints th which is wrong in some cases
+        print("\nYour", k ,"\bth degree root number is : " , i , "\n") #ordinal numbers are not perfect, works well until 20 after that it prints th which is wrong in some cases in english
     check = str(input("Do you want to quit or start again? enter Y to restart or another key to end: "))
     if check == "y":
         continue
